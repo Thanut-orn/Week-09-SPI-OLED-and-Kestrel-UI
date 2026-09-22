@@ -1,0 +1,374 @@
+Command: C:\Espressif\python_env\idf5.5_py3.13_env\Scripts\python.exe C:\Users\Thanu\esp\v5.5.1\esp-idf\tools/idf_monitor.py -p COM12 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 C:\Users\Thanu\Week-09-SPI-OLED-and-Kestrel-UI\67030085\Lab9-1_OLED_BringUp\build\Lab9-1_OLED_BringUp.elf C:\Users\Thanu\Week-09-SPI-OLED-and-Kestrel-UI\67030085\Lab9-1_OLED_BringUp\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.13_env\Scripts\python.exe' 'C:\Users\Thanu\esp\v5.5.1\esp-idf\tools\idf.py' '-p' 'COM12'
+�     : 40MHz
+[0;32mI (37) boot.ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Sep 15 2026 12:18:09[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0d594h ( 54676) map[0m
+[0;32mI (107) esp_image: segment 1: paddr=0001d5bc vaddr=3ffb0000 size=0256ch (  9580) load[0m
+[0;32mI (110) esp_image: segment 2: paddr=0001fb30 vaddr=40080000 size=004e8h (  1256) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=22c60h (142432) map[0m
+[0;32mI (167) esp_image: segment 4: paddr=00042c88 vaddr=400804e8 size=0fa50h ( 64080) load[0m
+[0;32mI (192) esp_image: segment 5: paddr=000526e0 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (200) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (200) boot: Disabling RNG early entropy source...[0m
+[0;32mI (212) cpu_start: Multicore app[0m
+[0;32mI (221) cpu_start: Pro cpu start user code[0m
+[0;32mI (221) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (221) app_init: Application information:[0m
+[0;32mI (221) app_init: Project name:     Lab9-1_OLED_BringUp[0m
+[0;32mI (226) app_init: App version:      aefe36e[0m
+[0;32mI (230) app_init: Compile time:     Sep 15 2026 12:17:55[0m
+[0;32mI (235) app_init: ELF file SHA256:  8441b3de1...[0m
+[0;32mI (239) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (243) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (247) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (251) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (255) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (261) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (266) heap_init: At 3FFB32D0 len 0002CD30 (179 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (282) heap_init: At 4008FF38 len 000100C8 (64 KiB): IRAM[0m
+[0;32mI (289) spi_flash: detected chip: generic[0m
+[0;32mI (291) spi_flash: flash io: dio[0m
+[0;33mW (294) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (307) main_task: Started on CPU0[0m
+[0;32mI (317) main_task: Calling app_main()[0m
+[0;32mI (4337) FORENSIC: === DUMPING FRAMEBUFFER PAGE 0 (Cols 30-45) ===[0m
+Byte[30] (Col 30): 0xFC  [Binary: 11111100]
+Byte[31] (Col 31): 0x20  [Binary: 00100000]
+Byte[32] (Col 32): 0x20  [Binary: 00100000]
+Byte[33] (Col 33): 0x20  [Binary: 00100000]
+Byte[34] (Col 34): 0xFC  [Binary: 11111100]
+Byte[35] (Col 35): 0x00  [Binary: 00000000]
+Byte[36] (Col 36): 0xE0  [Binary: 11100000]
+Byte[37] (Col 37): 0x50  [Binary: 01010000]
+Byte[38] (Col 38): 0x50  [Binary: 01010000]
+Byte[39] (Col 39): 0x50  [Binary: 01010000]
+Byte[40] (Col 40): 0x60  [Binary: 01100000]
+Byte[41] (Col 41): 0x00  [Binary: 00000000]
+Byte[42] (Col 42): 0x00  [Binary: 00000000]
+Byte[43] (Col 43): 0x04  [Binary: 00000100]
+Byte[44] (Col 44): 0xFC  [Binary: 11111100]
+Byte[45] (Col 45): 0x00  [Binary: 00000000]
+Forensic reconstruction for 'H' (ASCII 72)
+Col 0: 0x7F  [Binary: 01111111]
+Col 1: 0x08  I (4407) BRIDGE: Two-way serial bridge ready: ADC GPIO34 -> UART0
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4066
+ADC:4022
+ADC:3991
+ADC:3965
+ADC:3946
+ADC:3906
+ADC:3887
+ADC:3881
+ADC:3867
+ADC:3856
+ADC:3861
+ADC:3858
+ADC:3865
+ADC:3860
+ADC:3858
+ADC:3859
+ADC:3860
+ADC:3855
+ADC:3839
+ADC:3802
+ADC:3751
+ADC:3690
+ADC:3616
+ADC:3537
+ADC:3471
+ADC:3379
+ADC:3305
+ADC:3222
+ADC:3136
+ADC:3056
+ADC:2972
+ADC:2895
+ADC:2805
+ADC:2706
+ADC:2631
+ADC:2541
+ADC:2451
+ADC:2355
+ADC:2263
+ADC:2175
+ADC:2097
+ADC:2053
+ADC:2022
+ADC:2013
+ADC:2013
+ADC:2011
+ADC:2014
+ADC:2013
+ADC:2013
+ADC:2008
+ADC:2009
+ADC:1991
+ADC:1936
+ADC:1871
+ADC:1786
+ADC:1700
+ADC:1600
+ADC:1514
+ADC:1437
+ADC:1361
+ADC:1278
+ADC:1216
+ADC:1137
+ADC:1058
+ADC:989
+ADC:925
+ADC:862
+ADC:802
+ADC:753
+ADC:705
+ADC:641
+ADC:591
+ADC:535
+ADC:462
+ADC:397
+ADC:331
+ADC:253
+ADC:163
+ADC:64
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:25
+ADC:96
+ADC:166
+ADC:233
+ADC:301
+ADC:365
+ADC:425
+ADC:486
+ADC:546
+ADC:583
+ADC:613
+ADC:645
+ADC:682
+ADC:717
+ADC:742
+ADC:773
+ADC:791
+ADC:827
+ADC:835
+ADC:839
+ADC:835
+ADC:835
+ADC:831
+ADC:836
+ADC:858
+ADC:897
+ADC:960
+ADC:1014
+ADC:1089
+ADC:1163
+ADC:1245
+ADC:1331
+ADC:1399
+ADC:1453
+ADC:1475
+ADC:1479
+ADC:1476
+ADC:1479
+ADC:1473
+ADC:1476
+ADC:1488
+ADC:1527
+ADC:1596
+ADC:1675
+ADC:1755
+ADC:1840
+ADC:1926
+ADC:1989
+ADC:2061
+ADC:2123
+ADC:2183
+ADC:2207
+ADC:2207
+ADC:2205
+ADC:2205
+ADC:2203
+ADC:2205
+ADC:2203
+ADC:2206
+ADC:2207
+ADC:2206
+ADC:2203
+ADC:2205
+ADC:2206
+ADC:2208
+ADC:2207
+ADC:2208
+ADC:2221
+ADC:2262
+ADC:2310
+ADC:2383
+ADC:2449
+ADC:2542
+ADC:2614
+ADC:2711
+ADC:2812
+ADC:2903
+ADC:3009
+ADC:3126
+ADC:3263
+ADC:3415
+ADC:3571
+ADC:3751
+ADC:3901
+ADC:4080
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4095
+ADC:4043
+ADC:3863
+ADC:3696
+ADC:3504
+ADC:3334
+ADC:3171
+ADC:3023
+ADC:2871
+ADC:2736
+ADC:2578
+ADC:2433
+ADC:2287
+ADC:2144
+ADC:2010
+ADC:1887
+ADC:1769
+ADC:1680
+ADC:1648
+ADC:1639
+ADC:1647
+ADC:1645
+ADC:1642
+ADC:1645
+ADC:1637
+ADC:1568
+ADC:1409
+ADC:1207
+ADC:991
+ADC:793
+ADC:612
+ADC:421
+ADC:206
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0
+ADC:0

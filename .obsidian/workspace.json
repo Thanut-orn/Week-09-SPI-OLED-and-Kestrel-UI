@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "247d12af63943e40",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bf2abcfbb00b675",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a64a2252e9d3137",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification"
+            }
+          },
+          {
+            "id": "93317c60d35bdd60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0875e351546bdfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f937cd280bee24c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d6c78174bb3c9d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "25834006d437af70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "98cead0b57b50d5e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9585137d2733f242",
+    "type": "split",
+    "children": [
+      {
+        "id": "514d66af0c8d4553",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1373cea0f8ed2f25",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ce12af76e952ee10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "83a7b7f16f1179c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2c5fee2422f759d9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f28f2b1c685d5afc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "93317c60d35bdd60",
+  "lastOpenFiles": [
+    "67030085/report.md",
+    "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+    "09-Labsheet-09-4-Troubleshooting-and-Fault-Clinic.md",
+    "07-Labsheet-09-2-Kestrel-Calibration-and-Display-API.md",
+    "06-Labsheet-09-1-SPI-OLED-Deconstructed-Bringup.md",
+    "05-Glossary.md",
+    "Readme.md",
+    "Engineering-Forensic-Report-Case4.md",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_10836",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_10836",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_2556",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_2556",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_8712",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_8712",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_16756",
+    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_16756",
+    "67030085/ESP32.Kestrel.Webserver/obj/Debug/net10.0/ESP32.Kestrel.Webserver.genruntimeconfig.cache",
+    "67030085/ESP32.Kestrel.Webserver/bin/Debug/net10.0/ESP32.Kestrel.Webserver.deps.json"
+  ]
+}
