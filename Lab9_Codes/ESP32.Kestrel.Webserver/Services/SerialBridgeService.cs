@@ -29,7 +29,7 @@ public class SerialBridgeService : BackgroundService
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         // อ่านค่า COM Port จาก config หรือกำหนดค่ามาตรฐาน
-        string portName = _config["SerialPort:PortName"] ?? "COM24"; // <-- แก้ไขให้ตรงกับพอร์ต ESP32 ของนักศึกษา
+        string portName = _config["SerialPort:PortName"] ?? "COM12"; // <-- แก้ไขให้ตรงกับพอร์ต ESP32 ของนักศึกษา
         int baudRate = 115200;
 
         _logger.LogInformation("กำลังเปิดการเชื่อมต่อ Serial Port: {Port} ที่ BaudRate {Baud}", portName, baudRate);

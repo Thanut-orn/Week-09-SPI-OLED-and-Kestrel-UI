@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
+                "file": "67030085/Lab 9.3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification"
+              "title": "Lab 9.3"
             }
           }
         ],
@@ -205,23 +205,40 @@
   },
   "active": "93317c60d35bdd60",
   "lastOpenFiles": [
+    "67030085/Lab 9.2.md",
+    "67030085/Lab 9.1.md",
+    "67030085/image.png",
+    "67030085/Lab 9.3.md",
     "67030085/report.md",
     "08-Labsheet-09-3-End-to-End-IoT-Loop-and-Verification.md",
-    "09-Labsheet-09-4-Troubleshooting-and-Fault-Clinic.md",
     "07-Labsheet-09-2-Kestrel-Calibration-and-Display-API.md",
     "06-Labsheet-09-1-SPI-OLED-Deconstructed-Bringup.md",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-2-SoftAP-Provisioning/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-2-SoftAP-Provisioning/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-2-SoftAP-Provisioning/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-2-SoftAP-Provisioning/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-2-SoftAP-Provisioning/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-1-Reset-and-NVS-Forensics/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-1-Reset-and-NVS-Forensics/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-1-Reset-and-NVS-Forensics/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-1-Reset-and-NVS-Forensics/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj",
+    "Week-07-W-iFi-Privisioning/Example_codes/Lab7-1-Reset-and-NVS-Forensics/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/Thanu/esp/v5.5.1/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj",
+    "Week-07-W-iFi-Privisioning/67030085/report.md",
+    "Week-07-W-iFi-Privisioning/Readme.md",
+    "Week-07-W-iFi-Privisioning/04-Flash-Memory-and-NVS-Forensics.md",
+    "Week-07-W-iFi-Privisioning/07-Labsheet-07-2-SoftAP-Provisioning-and-HTTP-Sniffing.md",
+    "Week-07-W-iFi-Privisioning/05-Glossary.md",
+    "Week-07-W-iFi-Privisioning/ESP32 Provision.drawio.svg",
+    "Week-07-W-iFi-Privisioning/09-Labsheet-07-4-Security-Schemes-and-Custom-Data.md",
+    "Week-07-W-iFi-Privisioning/08-Labsheet-07-3-BLE-Provisioning-and-GATT-Forensics.md",
+    "Week-07-W-iFi-Privisioning/06-Labsheet-07-1-Reset-Mechanisms-and-NVS-Forensics.md",
+    "Week-07-W-iFi-Privisioning/03-Provisioning-Security-and-Cryptography.md",
+    "Week-07-W-iFi-Privisioning/02-Transport-Comparison-SoftAP-vs-BLE.md",
+    "Week-07-W-iFi-Privisioning/01-WiFi-Provisioning-Architecture-and-Protocomm.md",
+    "Example_codes/Lab9-1-SPI-OLED-Bringup/Build_with_docker_idf6.md",
+    "09-Labsheet-09-4-Troubleshooting-and-Fault-Clinic.md",
     "05-Glossary.md",
     "Readme.md",
-    "Engineering-Forensic-Report-Case4.md",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_10836",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_10836",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_2556",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_2556",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_8712",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_8712",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stdout_output_16756",
-    "67030085/Lab9-1_OLED_BringUp/build/log/idf_py_stderr_output_16756",
-    "67030085/ESP32.Kestrel.Webserver/obj/Debug/net10.0/ESP32.Kestrel.Webserver.genruntimeconfig.cache",
-    "67030085/ESP32.Kestrel.Webserver/bin/Debug/net10.0/ESP32.Kestrel.Webserver.deps.json"
+    "Engineering-Forensic-Report-Case4.md"
   ]
 }

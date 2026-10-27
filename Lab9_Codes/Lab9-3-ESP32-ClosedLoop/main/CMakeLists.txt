@@ -1,4 +1,4 @@
-idf_component_register(SRCS "Lab9-3-ESP32-ClosedLoop.c"
+idf_component_register(SRCS "main.c"
                     INCLUDE_DIRS "."
                     REQUIRES 
                         driver 

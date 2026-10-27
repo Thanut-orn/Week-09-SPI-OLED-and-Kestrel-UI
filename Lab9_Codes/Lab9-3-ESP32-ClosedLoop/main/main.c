@@ -189,7 +189,7 @@ void render_multizone_ui(int raw_val, int percent, bool is_cloud, const char *ms
     // --- Zone 1: Status Bar (Header: Y=0..12) ---
     // นักศึกษาต้องใส่รหัสนักศึกษาของตนเองลงในสตริงนี้
     char header_str[32];
-    snprintf(header_str, sizeof(header_str), "ESP32 | 65012345"); // <-- แก้ไขเป็นรหัสนักศึกษาจริง
+    snprintf(header_str, sizeof(header_str), "ESP32 | 085 - 109"); // <-- แก้ไขเป็นรหัสนักศึกษาจริง
     oled_draw_string(2, 2, header_str, true);
     oled_draw_line_h(0, 13, 128, true); // เส้นกั้นโซน 1
 
@@ -273,16 +273,22 @@ void app_main(void) {
         }
 
         // 4. กลไก Hybrid Fallback ตรวจสอบว่า Kestrel ยังสื่อสารอยู่หรือไม่
-        // หากไม่มีข้อมูลจาก Kestrel เกิน 1.5 วินาที (1500 ms) ให้สลับกลับสู่ Edge Mode
         if (now - last_cloud_rx_time > 1500) {
             is_cloud_mode = false;
-            // คำนวณแบบ Local Edge Scaling (Linear 0-4095 -> 0-100%)
             calculated_percent = (raw_adc * 100) / 4095;
             strncpy(current_msg, "LOCAL EDGE", sizeof(current_msg) - 1);
         }
 
-        // 5. สั่งเรนเดอร์หน้าจอ Multi-Zone
+        // 5. สั่งเรนเดอร์หน้าจอ Multi-Zone พร้อมจับเวลา
+        int64_t start_time = esp_timer_get_time(); // <--- เริ่มจับเวลา
+
         render_multizone_ui(raw_adc, calculated_percent, is_cloud_mode, current_msg);
+
+        int64_t end_time = esp_timer_get_time(); // <--- หยุดจับเวลา
+        
+        // คำนวณและแสดงผลเวลาที่ใช้ในการวาดจอ
+        float elapsed_ms = (end_time - start_time) / 1000.0f;
+        printf(">> OLED Update Time: %.3f ms\n", elapsed_ms);
 
         // หน่วงเวลาสำหรับความถี่ 20 Hz (รอบละ 50 ms)
         vTaskDelay(pdMS_TO_TICKS(50));
